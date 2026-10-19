@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "2026-10-19",
+  "exam": {
+    "code": "UAG",
+    "title": "Unmanned Aircraft General – Small (Part 107)",
+    "standard": "FAA-S-ACS-10B",
+    "questionCount": 60,
+    "timeLimitMinutes": 120,
+    "passingScorePercent": 70,
+    "minimumCorrectAnswers": 42,
+    "testingFeeUsd": 175,
+    "october2026ChartUpdate": {
+      "effectiveDate": "2026-10-26",
+      "summary": "FAA transitions Part 107 sectional chart questions away from static FAA-CT-8080-2H Testing Supplement chart figures toward current VFR sectional chart excerpts.",
+      "guideUrl": "https://part107hq.com/part-107-october-2026-sectional-chart-changes/",
+      "freeChartPracticeUrl": "https://part107hq.com/practice/sectional-chart-questions/"
+    }
+  },
+  "provider": {
+    "name": "Part 107 HQ",
+    "url": "https://part107hq.com/",
+    "freePracticeHubUrl": "https://part107hq.com/free-part-107-practice-test/",
+    "freeMockExamUrl": "https://part107hq.com/mock-exam/",
+    "freeQuestionCount": 191,
+    "verifiedQuestionBankCount": 765,
+    "youtubeChannel": "https://www.youtube.com/@part107hq"
+  },
+  "areasOfOperation": [
+    {
+      "areaCode": "UA.I",
+      "name": "Regulations",
+      "examWeightPercent": "15-25%",
+      "freeQuestionCount": 35,
+      "primaryRegulations": ["14 CFR 107.9", "14 CFR 107.15", "14 CFR 107.29", "14 CFR 107.39", "14 CFR 107.51", "14 CFR Part 89"],
+      "practiceUrl": "https://part107hq.com/practice/regulations/",
+      "guides": [
+        "https://part107hq.com/part-107-regulations-study-guide/",
+        "https://part107hq.com/part-107-night-operations-and-operations-over-people/",
+        "https://part107hq.com/part-107-remote-id-and-drone-registration/"
+      ]
+    },
+    {
+      "areaCode": "UA.II",
+      "name": "Airspace Classification, Operating Requirements, and Flight Restrictions",
+      "examWeightPercent": "15-25%",
+      "freeQuestionCount": 39,
+      "freeChartQuestionCount": 45,
+      "primaryRegulations": ["14 CFR 107.41", "14 CFR 107.43", "14 CFR 107.45", "14 CFR 107.47", "AIM Ch. 3", "FAA Aeronautical Chart Users' Guide"],
+      "practiceUrl": "https://part107hq.com/practice/airspace/",
+      "chartPracticeUrl": "https://part107hq.com/practice/sectional-chart-questions/",
+      "guides": [
+        "https://part107hq.com/part-107-airspace-classes/",
+        "https://part107hq.com/how-to-read-a-sectional-chart-for-part-107/",
+        "https://part107hq.com/part-107-figure-31-coeur-dalene-airspace-guide/",
+        "https://part107hq.com/part-107-october-2026-sectional-chart-changes/"
+      ]
+    },
+    {
+      "areaCode": "UA.III",
+      "name": "Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance",
+      "examWeightPercent": "11-16%",
+      "freeQuestionCount": 25,
+      "primaryRegulations": ["AC 00-6", "AIM Ch. 7", "FAA-G-8082-22"],
+      "practiceUrl": "https://part107hq.com/practice/weather/",
+      "guides": [
+        "https://part107hq.com/part-107-weather-metar-taf-guide/",
+        "https://part107hq.com/part-107-density-altitude-and-aircraft-performance/"
+      ]
+    },
+    {
+      "areaCode": "UA.IV",
+      "name": "Small Unmanned Aircraft Loading and Performance",
+      "examWeightPercent": "7-11%",
+      "freeQuestionCount": 21,
+      "primaryRegulations": ["FAA-H-8083-25", "FAA-G-8082-22", "14 CFR 107.49"],
+      "practiceUrl": "https://part107hq.com/practice/loading-performance/",
+      "guides": [
+        "https://part107hq.com/part-107-density-altitude-and-aircraft-performance/"
+      ]
+    },
+    {
+      "areaCode": "UA.V",
+      "name": "Emergency Procedures, Crew Resource Management, Radio Communications, and Airport Operations",
+      "examWeightPercent": "35-45%",
+      "freeQuestionCount": 71,
+      "primaryRegulations": ["14 CFR 107.19", "14 CFR 107.23", "14 CFR 107.37", "14 CFR 107.43", "AIM Ch. 4", "FAA Chart Supplement"],
+      "practiceUrl": "https://part107hq.com/practice/operations/",
+      "guides": [
+        "https://part107hq.com/part-107-ctaf-unicom-frequencies/",
+        "https://part107hq.com/part-107-airport-traffic-patterns/",
+        "https://part107hq.com/part-107-adm-crew-and-physiology-guide/"
+      ]
+    }
+  ]
+}

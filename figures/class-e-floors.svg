@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1120" role="img" aria-labelledby="title desc">
+<title id="title">Three Class E chart cues and their altitude references</title><desc id="desc">Study schematic, not a navigation chart. Dashed magenta marks Class E at the surface. An airport-designated Class E surface area is covered by 14 CFR 107.41. The illustrated faded side of a magenta vignette has a 700 feet AGL Class E floor, and the illustrated faded side of a blue vignette a 1200 feet AGL floor. Neither vignette by itself marks Class E at the surface; surface extensions require separate identification.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#287064"/></marker><marker id="magenta-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ab397c"/></marker><linearGradient id="magenta-fade"><stop stop-color="#ab397c" stop-opacity=".9"/><stop offset="1" stop-color="#ab397c" stop-opacity="0"/></linearGradient><linearGradient id="blue-fade"><stop stop-color="#316da5" stop-opacity=".9"/><stop offset="1" stop-color="#316da5" stop-opacity="0"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d39}.title{font-size:30px;font-weight:700}.label{font-size:24px;font-weight:700}.body{font-size:22px}.small{font-size:18px;fill:#536572}.number{font-size:28px;font-weight:700}.white{fill:#fff}.magenta{fill:#ab397c}.blue{fill:#316da5}</style>
+<rect width="600" height="1120" rx="16" fill="#f7f8f1"/>
+
+<text x="28" y="48" class="title">Class E: find the floor</text><text x="28" y="80" class="small">Study schematic · read the legend and designation</text>
+<rect x="22" y="102" width="556" height="294" rx="12" fill="#fff" stroke="#dbe2dd"/>
+<text x="42" y="140" class="label">1 · Dashed magenta</text>
+<rect x="46" y="164" width="116" height="91" rx="22" fill="none" stroke="#ab397c" stroke-width="4" stroke-dasharray="9 7"/>
+<text x="190" y="190" class="body">Class E starts</text><text x="190" y="222" class="number magenta">at the surface</text>
+<text x="42" y="289" class="body">Airport-designated surface area:</text><text x="42" y="324" class="label">prior ATC authorization under § 107.41.</text>
+<text x="42" y="365" class="small">A surface-area extension is a different designation.</text>
+<rect x="22" y="416" width="556" height="274" rx="12" fill="#fff" stroke="#dbe2dd"/>
+<text x="42" y="454" class="label">2 · Magenta vignette</text>
+<rect x="46" y="484" width="116" height="61" fill="url(#magenta-fade)"/>
+<text x="190" y="509" class="body">Illustrated faded side:</text><text x="190" y="543" class="number magenta">700 ft AGL floor</text>
+<rect x="46" y="580" width="508" height="34" fill="#f3e4ee"/><line x1="46" y1="616" x2="554" y2="616" stroke="#ab397c" stroke-width="3"/>
+<text x="62" y="604" class="small">CLASS E above this floor</text><text x="62" y="648" class="small">Class G below, in this simplified example</text>
+<rect x="22" y="710" width="556" height="274" rx="12" fill="#fff" stroke="#dbe2dd"/>
+<text x="42" y="748" class="label">3 · Blue vignette</text>
+<rect x="46" y="778" width="116" height="61" fill="url(#blue-fade)"/>
+<text x="190" y="803" class="body">Illustrated faded side:</text><text x="190" y="837" class="number blue">1,200 ft AGL floor</text>
+<rect x="46" y="874" width="508" height="34" fill="#e4edf5"/><line x1="46" y1="910" x2="554" y2="910" stroke="#316da5" stroke-width="3"/>
+<text x="62" y="898" class="small">CLASS E above this floor</text><text x="62" y="942" class="small">Class G below, in this simplified example</text>
+<text x="28" y="1024" class="body">A 700 / 1,200 ft floor is not a surface area.</text>
+<text x="28" y="1062" class="small">Other chart annotations can show other floors.</text>
+<text x="28" y="1091" class="small">Basis: FAA Chart Users’ Guide; AIM 3-2-6.</text>
+</svg>

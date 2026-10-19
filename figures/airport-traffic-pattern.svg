@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 780" role="img" aria-labelledby="title desc">
+<title id="title">A left-hand traffic pattern for runway 09</title><desc id="desc">Study schematic of a manned-aircraft left traffic pattern, not to scale. Landing direction on runway 09 is approximately 090 degrees magnetic. Final and upwind point east, crosswind north, downwind west, and base south. Actual airports can specify right traffic. Under Part 107 a small unmanned aircraft must not interfere with airport operations or traffic patterns.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#287064"/></marker><marker id="magenta-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ab397c"/></marker><linearGradient id="magenta-fade"><stop stop-color="#ab397c" stop-opacity=".9"/><stop offset="1" stop-color="#ab397c" stop-opacity="0"/></linearGradient><linearGradient id="blue-fade"><stop stop-color="#316da5" stop-opacity=".9"/><stop offset="1" stop-color="#316da5" stop-opacity="0"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d39}.title{font-size:30px;font-weight:700}.label{font-size:24px;font-weight:700}.body{font-size:22px}.small{font-size:18px;fill:#536572}.number{font-size:28px;font-weight:700}.white{fill:#fff}.magenta{fill:#ab397c}.blue{fill:#316da5}</style>
+<rect width="600" height="780" rx="16" fill="#f7f8f1"/>
+
+<text x="28" y="48" class="title">Runway 09 · left traffic</text><text x="28" y="80" class="small">Manned-aircraft pattern · schematic, not to scale</text>
+<path d="M543 142 L543 102" stroke="#172d39" stroke-width="3"/><path d="M534 115 L543 100 L552 115" fill="none" stroke="#172d39" stroke-width="3"/><text x="533" y="165" class="small">N</text>
+<path d="M100 470 L500 470 L500 210 L100 210Z" fill="none" stroke="#b7c9bf" stroke-width="5" stroke-linejoin="round"/>
+<path d="M242 210 L184 210" stroke="#287064" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M500 339 L500 281" stroke="#287064" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M100 280 L100 338" stroke="#287064" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M140 470 L199 470" stroke="#287064" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M419 470 L478 470" stroke="#287064" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="215" y="178" class="label">DOWNWIND</text><text x="233" y="251" class="small">Opposite landing direction</text>
+<text x="25" y="372" class="body">BASE</text><text x="455" y="371" class="body">CROSS-</text><text x="455" y="402" class="body">WIND</text>
+<rect x="234" y="451" width="155" height="38" rx="2" fill="#172d39"/><line x1="251" y1="470" x2="369" y2="470" stroke="#fff" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="238" y="446" class="small">09</text><text x="365" y="446" class="small">27</text>
+<text x="115" y="514" class="label">FINAL</text><text x="410" y="514" class="label">UPWIND</text>
+<path d="M242 552 L382 552" stroke="#287064" stroke-width="3" marker-end="url(#arrow)"/><text x="138" y="590" class="body">Landing: approximately 090° magnetic</text>
+<rect x="28" y="620" width="544" height="90" rx="10" fill="#e8eee9"/>
+<text x="47" y="653" class="body">sUAS: do not interfere with airport</text><text x="47" y="682" class="body">operations or traffic patterns (§ 107.43).</text>
+<text x="28" y="745" class="small">Actual patterns may use right turns. Check airport data.</text>
+</svg>

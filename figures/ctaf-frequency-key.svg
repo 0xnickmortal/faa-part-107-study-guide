@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 820" role="img" aria-labelledby="title desc">
+<title id="title">The circled C identifies the CTAF</title><desc id="desc">An illustrative frequency key using the September 3 2026 CSM chart example. CT 119.6 is followed by a star for part-time tower operation and a circled C for CTAF. 118.45 is ASOS and 122.95 UNICOM. Verify the current Chart Supplement and NOTAMs for operation, and do not use radio contact to obtain a Part 107 airspace authorization.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#287064"/></marker><marker id="magenta-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ab397c"/></marker><linearGradient id="magenta-fade"><stop stop-color="#ab397c" stop-opacity=".9"/><stop offset="1" stop-color="#ab397c" stop-opacity="0"/></linearGradient><linearGradient id="blue-fade"><stop stop-color="#316da5" stop-opacity=".9"/><stop offset="1" stop-color="#316da5" stop-opacity="0"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d39}.title{font-size:30px;font-weight:700}.label{font-size:24px;font-weight:700}.body{font-size:22px}.small{font-size:18px;fill:#536572}.number{font-size:28px;font-weight:700}.white{fill:#fff}.magenta{fill:#ab397c}.blue{fill:#316da5}</style>
+<rect width="600" height="820" rx="16" fill="#f7f8f1"/>
+
+<text x="28" y="48" class="title">Find the circled C</text><text x="28" y="80" class="small">Study key · September 3, 2026 CSM chart example</text>
+<rect x="28" y="112" width="544" height="128" rx="12" fill="#fff" stroke="#dbe2dd"/>
+<text x="50" y="169" class="number blue">CT 119.6 ★</text><circle cx="310" cy="159" r="18" fill="none" stroke="#316da5" stroke-width="3"/><text x="301" y="167" class="body blue">C</text>
+<text x="50" y="212" class="small">Tower frequency · star = part-time tower</text>
+<line x1="310" y1="248" x2="310" y2="282" stroke="#287064" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="50" y="324" class="label">Circled C follows the CTAF frequency.</text><text x="50" y="360" class="body">Here, the CTAF is 119.6 MHz.</text>
+<rect x="28" y="396" width="544" height="152" rx="12" fill="#e8eee9"/>
+<text x="50" y="438" class="label">ASOS 118.45</text><text x="50" y="473" class="body">Automated weather observation.</text><text x="50" y="514" class="small">A weather frequency is not the CTAF here.</text>
+<rect x="28" y="570" width="544" height="110" rx="12" fill="#fff" stroke="#dbe2dd"/>
+<text x="50" y="612" class="label">UNICOM 122.95</text><text x="50" y="649" class="body">Do not assume UNICOM is the CTAF.</text>
+<text x="28" y="723" class="small">For operations: verify Chart Supplement and NOTAMs.</text><text x="28" y="752" class="small">CTAF monitoring is not ATC airspace authorization.</text>
+<text x="28" y="790" class="small">Basis: FAA Chart Users’ Guide p. 15; AIM 4-1-9.</text>
+</svg>

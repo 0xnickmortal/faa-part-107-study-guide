@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+<title id="title">MSL and AGL use different reference levels</title><desc id="desc">Study schematic, not to scale. The chart example 2049 (1149) means top elevation 2049 feet MSL and height 1149 feet AGL. Ground elevation is 900 feet MSL. A hypothetical aircraft 200 feet above that same ground is at 1100 feet MSL.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#287064"/></marker><marker id="magenta-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ab397c"/></marker><linearGradient id="magenta-fade"><stop stop-color="#ab397c" stop-opacity=".9"/><stop offset="1" stop-color="#ab397c" stop-opacity="0"/></linearGradient><linearGradient id="blue-fade"><stop stop-color="#316da5" stop-opacity=".9"/><stop offset="1" stop-color="#316da5" stop-opacity="0"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172d39}.title{font-size:30px;font-weight:700}.label{font-size:24px;font-weight:700}.body{font-size:22px}.small{font-size:18px;fill:#536572}.number{font-size:28px;font-weight:700}.white{fill:#fff}.magenta{fill:#ab397c}.blue{fill:#316da5}</style>
+<rect width="600" height="760" rx="16" fill="#f7f8f1"/>
+
+<text x="28" y="48" class="title">One height, two references</text>
+<text x="28" y="80" class="small">Study schematic · not to scale</text>
+<rect x="28" y="102" width="544" height="58" rx="10" fill="#e8eee9"/>
+<text x="46" y="140" class="number">Chart example: 2049 (1149)</text>
+<path d="M296 486 L314 205 L332 486Z" fill="#d1d9d6" stroke="#172d39" stroke-width="3"/>
+<path d="M304 385 L325 385 M309 295 L321 295" stroke="#172d39" stroke-width="3"/>
+<line x1="314" y1="200" x2="547" y2="200" stroke="#ab397c" stroke-dasharray="6 5"/>
+<text x="28" y="205" class="label">Top: 2,049 ft MSL</text>
+<line x1="490" y1="218" x2="490" y2="474" stroke="#ab397c" stroke-width="3"/><path d="M483 232 L490 218 L497 232 M483 460 L490 474 L497 460" fill="none" stroke="#ab397c" stroke-width="3"/>
+<text x="342" y="310" class="number magenta">1,149 ft</text><text x="342" y="340" class="body">above ground</text><text x="342" y="370" class="label magenta">AGL</text>
+<path d="M28 486 L572 486" stroke="#72523f" stroke-width="5"/>
+<text x="28" y="526" class="label">Ground: 900 ft MSL</text>
+<text x="28" y="556" class="body">2,049 − 1,149 = 900</text>
+<path d="M90 437 L170 437 M130 425 L130 449 M110 426 L110 447 M151 426 L151 447" stroke="#287064" stroke-width="4"/>
+<text x="28" y="392" class="body">At this same ground:</text><text x="28" y="420" class="body">200 ft AGL = 1,100 ft MSL</text>
+<line x1="204" y1="444" x2="204" y2="477" stroke="#287064" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="28" y1="617" x2="572" y2="617" stroke="#316da5" stroke-width="3"/>
+<text x="28" y="650" class="label blue">Mean sea level: 0 ft MSL</text>
+<text x="28" y="698" class="small">Use the ground elevation at the actual location.</text>
+<text x="28" y="726" class="small">Basis: FAA Chart Users’ Guide, p. 11; Legend 1.</text>
+</svg>
