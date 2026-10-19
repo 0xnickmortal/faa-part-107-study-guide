@@ -9,9 +9,25 @@
     "passingScorePercent": 70,
     "minimumCorrectAnswers": 42,
     "testingFeeUsd": 175,
+    "testBlueprint": {
+      "effectiveDate": "2025-09-29",
+      "summary": "The PSI UAG blueprint supersedes the obsolete testing blueprint in FAA-S-ACS-10B. The ACS remains a guide to test topics and resources.",
+      "sources": [
+        {
+          "url": "https://media.psiexams.com/faa/UAG_Information_Bulletin.pdf",
+          "pages": [4]
+        },
+        {
+          "url": "https://www.faa.gov/training_testing/testing/community_advisory_August_2025.pdf",
+          "pages": [3, 4]
+        }
+      ]
+    },
     "october2026ChartUpdate": {
       "effectiveDate": "2026-10-26",
-      "summary": "FAA transitions Part 107 sectional chart questions away from static FAA-CT-8080-2H Testing Supplement chart figures toward current VFR sectional chart excerpts.",
+      "summary": "UAG already includes questions with embedded images. Beginning October 26, 2026, it adds questions using images not found in the testing supplement, including up-to-date VFR sectional chart excerpts. The FAA has not set a date for removing testing supplements from test centers. Candidates retain access to the supplement for their exam until removal, with advance notice from the FAA.",
+      "sourceUrl": "https://www.faa.gov/training_testing/testing/September_2026_Special_Edition.pdf",
+      "sourcePages": [5, 6],
       "guideUrl": "https://part107hq.com/part-107-october-2026-sectional-chart-changes/",
       "freeChartPracticeUrl": "https://part107hq.com/practice/sectional-chart-questions/"
     }
@@ -29,7 +45,7 @@
     {
       "areaCode": "UA.I",
       "name": "Regulations",
-      "examWeightPercent": "15-25%",
+      "examWeightPercent": "48%",
       "freeQuestionCount": 35,
       "primaryRegulations": ["14 CFR 107.9", "14 CFR 107.15", "14 CFR 107.29", "14 CFR 107.39", "14 CFR 107.51", "14 CFR Part 89"],
       "practiceUrl": "https://part107hq.com/practice/regulations/",
@@ -42,7 +58,7 @@
     {
       "areaCode": "UA.II",
       "name": "Airspace Classification, Operating Requirements, and Flight Restrictions",
-      "examWeightPercent": "15-25%",
+      "examWeightPercent": "20%",
       "freeQuestionCount": 39,
       "freeChartQuestionCount": 45,
       "primaryRegulations": ["14 CFR 107.41", "14 CFR 107.43", "14 CFR 107.45", "14 CFR 107.47", "AIM Ch. 3", "FAA Aeronautical Chart Users' Guide"],
@@ -58,7 +74,7 @@
     {
       "areaCode": "UA.III",
       "name": "Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance",
-      "examWeightPercent": "11-16%",
+      "examWeightPercent": "5%",
       "freeQuestionCount": 25,
       "primaryRegulations": ["AC 00-6", "AIM Ch. 7", "FAA-G-8082-22"],
       "practiceUrl": "https://part107hq.com/practice/weather/",
@@ -70,7 +86,7 @@
     {
       "areaCode": "UA.IV",
       "name": "Small Unmanned Aircraft Loading and Performance",
-      "examWeightPercent": "7-11%",
+      "examWeightPercent": "2%",
       "freeQuestionCount": 21,
       "primaryRegulations": ["FAA-H-8083-25", "FAA-G-8082-22", "14 CFR 107.49"],
       "practiceUrl": "https://part107hq.com/practice/loading-performance/",
@@ -81,7 +97,7 @@
     {
       "areaCode": "UA.V",
       "name": "Emergency Procedures, Crew Resource Management, Radio Communications, and Airport Operations",
-      "examWeightPercent": "35-45%",
+      "examWeightPercent": "25%",
       "freeQuestionCount": 71,
       "primaryRegulations": ["14 CFR 107.19", "14 CFR 107.23", "14 CFR 107.37", "14 CFR 107.43", "AIM Ch. 4", "FAA Chart Supplement"],
       "practiceUrl": "https://part107hq.com/practice/operations/",
