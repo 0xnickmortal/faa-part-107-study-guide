@@ -7,7 +7,7 @@ An open, source-linked reference for the **FAA Unmanned Aircraft General – Sma
 3. **Worked Sectional Chart Diagrams** (`AGL vs. MSL`, `Class E Floors`, `CTAF vs. UNICOM / ASOS`, and `Airport Traffic Patterns`)
 4. **Free, No-Login Part 107 Practice Resources & Official FAA Primary Sources**
 
-> **Live Web Reference:** [https://0xnickmortal.github.io/faa-part-107-2026-study-reference/](https://0xnickmortal.github.io/faa-part-107-2026-study-reference/)  
+> **Live Web Reference:** [https://0xnickmortal.github.io/faa-part-107-study-guide/](https://0xnickmortal.github.io/faa-part-107-study-guide/)  
 > **Interactive Free Practice & Full 60-Question Mock Exam:** [Part 107 HQ (`part107hq.com`)](https://part107hq.com/)
 
 ---
